@@ -1,0 +1,14 @@
+*.pth
+resources/*
+*__pycache__
+.vscode/*
+*.gz
+*.zip
+*.pkl
+*.err
+*.out
+*.npy
+*.slurm
+*change_detection
+*mp4
+*avi

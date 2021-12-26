@@ -1,0 +1,3 @@
+/home/botan/workspace/projects/video_stabilization/build/CMakeFiles/rebuild_cache.dir
+/home/botan/workspace/projects/video_stabilization/build/CMakeFiles/problem1.dir
+/home/botan/workspace/projects/video_stabilization/build/CMakeFiles/edit_cache.dir
