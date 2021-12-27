@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/botan/workspace/projects/video_stabilization/main.cpp" "/home/botan/workspace/projects/video_stabilization/build/CMakeFiles/problem1.dir/main.cpp.o"
-  "/home/botan/workspace/projects/video_stabilization/src/DataLoader.cpp" "/home/botan/workspace/projects/video_stabilization/build/CMakeFiles/problem1.dir/src/DataLoader.cpp.o"
-  "/home/botan/workspace/projects/video_stabilization/src/FeatureExtractor.cpp" "/home/botan/workspace/projects/video_stabilization/build/CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.o"
-  "/home/botan/workspace/projects/video_stabilization/src/Stabilizer.cpp" "/home/botan/workspace/projects/video_stabilization/build/CMakeFiles/problem1.dir/src/Stabilizer.cpp.o"
+  "/home/botan/workspace/hobby_projects/video_stabilization/main.cpp" "/home/botan/workspace/hobby_projects/video_stabilization/build/CMakeFiles/problem1.dir/main.cpp.o"
+  "/home/botan/workspace/hobby_projects/video_stabilization/src/DataLoader.cpp" "/home/botan/workspace/hobby_projects/video_stabilization/build/CMakeFiles/problem1.dir/src/DataLoader.cpp.o"
+  "/home/botan/workspace/hobby_projects/video_stabilization/src/FeatureExtractor.cpp" "/home/botan/workspace/hobby_projects/video_stabilization/build/CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.o"
+  "/home/botan/workspace/hobby_projects/video_stabilization/src/Stabilizer.cpp" "/home/botan/workspace/hobby_projects/video_stabilization/build/CMakeFiles/problem1.dir/src/Stabilizer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

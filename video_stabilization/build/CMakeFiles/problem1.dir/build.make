@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/botan/workspace/projects/video_stabilization
+CMAKE_SOURCE_DIR = /home/botan/workspace/hobby_projects/video_stabilization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/botan/workspace/projects/video_stabilization/build
+CMAKE_BINARY_DIR = /home/botan/workspace/hobby_projects/video_stabilization/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/problem1.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/problem1.dir/flags.make
 
 CMakeFiles/problem1.dir/main.cpp.o: CMakeFiles/problem1.dir/flags.make
 CMakeFiles/problem1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/botan/workspace/projects/video_stabilization/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/problem1.dir/main.cpp.o"
-	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/problem1.dir/main.cpp.o -c /home/botan/workspace/projects/video_stabilization/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/botan/workspace/hobby_projects/video_stabilization/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/problem1.dir/main.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/problem1.dir/main.cpp.o -c /home/botan/workspace/hobby_projects/video_stabilization/main.cpp
 
 CMakeFiles/problem1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/problem1.dir/main.cpp.i"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/botan/workspace/projects/video_stabilization/main.cpp > CMakeFiles/problem1.dir/main.cpp.i
+	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/botan/workspace/hobby_projects/video_stabilization/main.cpp > CMakeFiles/problem1.dir/main.cpp.i
 
 CMakeFiles/problem1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/problem1.dir/main.cpp.s"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/botan/workspace/projects/video_stabilization/main.cpp -o CMakeFiles/problem1.dir/main.cpp.s
+	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/botan/workspace/hobby_projects/video_stabilization/main.cpp -o CMakeFiles/problem1.dir/main.cpp.s
 
 CMakeFiles/problem1.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/problem1.dir/main.cpp.o.provides.build: CMakeFiles/problem1.dir/main.
 
 CMakeFiles/problem1.dir/src/DataLoader.cpp.o: CMakeFiles/problem1.dir/flags.make
 CMakeFiles/problem1.dir/src/DataLoader.cpp.o: ../src/DataLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/botan/workspace/projects/video_stabilization/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/problem1.dir/src/DataLoader.cpp.o"
-	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/problem1.dir/src/DataLoader.cpp.o -c /home/botan/workspace/projects/video_stabilization/src/DataLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/botan/workspace/hobby_projects/video_stabilization/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/problem1.dir/src/DataLoader.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/problem1.dir/src/DataLoader.cpp.o -c /home/botan/workspace/hobby_projects/video_stabilization/src/DataLoader.cpp
 
 CMakeFiles/problem1.dir/src/DataLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/problem1.dir/src/DataLoader.cpp.i"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/botan/workspace/projects/video_stabilization/src/DataLoader.cpp > CMakeFiles/problem1.dir/src/DataLoader.cpp.i
+	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/botan/workspace/hobby_projects/video_stabilization/src/DataLoader.cpp > CMakeFiles/problem1.dir/src/DataLoader.cpp.i
 
 CMakeFiles/problem1.dir/src/DataLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/problem1.dir/src/DataLoader.cpp.s"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/botan/workspace/projects/video_stabilization/src/DataLoader.cpp -o CMakeFiles/problem1.dir/src/DataLoader.cpp.s
+	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/botan/workspace/hobby_projects/video_stabilization/src/DataLoader.cpp -o CMakeFiles/problem1.dir/src/DataLoader.cpp.s
 
 CMakeFiles/problem1.dir/src/DataLoader.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/problem1.dir/src/DataLoader.cpp.o.provides.build: CMakeFiles/problem1
 
 CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.o: CMakeFiles/problem1.dir/flags.make
 CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.o: ../src/FeatureExtractor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/botan/workspace/projects/video_stabilization/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.o"
-	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.o -c /home/botan/workspace/projects/video_stabilization/src/FeatureExtractor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/botan/workspace/hobby_projects/video_stabilization/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.o -c /home/botan/workspace/hobby_projects/video_stabilization/src/FeatureExtractor.cpp
 
 CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.i"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/botan/workspace/projects/video_stabilization/src/FeatureExtractor.cpp > CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.i
+	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/botan/workspace/hobby_projects/video_stabilization/src/FeatureExtractor.cpp > CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.i
 
 CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.s"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/botan/workspace/projects/video_stabilization/src/FeatureExtractor.cpp -o CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.s
+	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/botan/workspace/hobby_projects/video_stabilization/src/FeatureExtractor.cpp -o CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.s
 
 CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.o.provides.build: CMakeFiles/pr
 
 CMakeFiles/problem1.dir/src/Stabilizer.cpp.o: CMakeFiles/problem1.dir/flags.make
 CMakeFiles/problem1.dir/src/Stabilizer.cpp.o: ../src/Stabilizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/botan/workspace/projects/video_stabilization/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/problem1.dir/src/Stabilizer.cpp.o"
-	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/problem1.dir/src/Stabilizer.cpp.o -c /home/botan/workspace/projects/video_stabilization/src/Stabilizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/botan/workspace/hobby_projects/video_stabilization/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/problem1.dir/src/Stabilizer.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/problem1.dir/src/Stabilizer.cpp.o -c /home/botan/workspace/hobby_projects/video_stabilization/src/Stabilizer.cpp
 
 CMakeFiles/problem1.dir/src/Stabilizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/problem1.dir/src/Stabilizer.cpp.i"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/botan/workspace/projects/video_stabilization/src/Stabilizer.cpp > CMakeFiles/problem1.dir/src/Stabilizer.cpp.i
+	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/botan/workspace/hobby_projects/video_stabilization/src/Stabilizer.cpp > CMakeFiles/problem1.dir/src/Stabilizer.cpp.i
 
 CMakeFiles/problem1.dir/src/Stabilizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/problem1.dir/src/Stabilizer.cpp.s"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/botan/workspace/projects/video_stabilization/src/Stabilizer.cpp -o CMakeFiles/problem1.dir/src/Stabilizer.cpp.s
+	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/botan/workspace/hobby_projects/video_stabilization/src/Stabilizer.cpp -o CMakeFiles/problem1.dir/src/Stabilizer.cpp.s
 
 CMakeFiles/problem1.dir/src/Stabilizer.cpp.o.requires:
 
@@ -223,7 +223,7 @@ problem1: /usr/local/lib/libopencv_photo.so.4.5.4
 problem1: /usr/local/lib/libopencv_imgproc.so.4.5.4
 problem1: /usr/local/lib/libopencv_core.so.4.5.4
 problem1: CMakeFiles/problem1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/botan/workspace/projects/video_stabilization/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable problem1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/botan/workspace/hobby_projects/video_stabilization/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable problem1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/problem1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -243,6 +243,6 @@ CMakeFiles/problem1.dir/clean:
 .PHONY : CMakeFiles/problem1.dir/clean
 
 CMakeFiles/problem1.dir/depend:
-	cd /home/botan/workspace/projects/video_stabilization/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/botan/workspace/projects/video_stabilization /home/botan/workspace/projects/video_stabilization /home/botan/workspace/projects/video_stabilization/build /home/botan/workspace/projects/video_stabilization/build /home/botan/workspace/projects/video_stabilization/build/CMakeFiles/problem1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/botan/workspace/hobby_projects/video_stabilization/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/botan/workspace/hobby_projects/video_stabilization /home/botan/workspace/hobby_projects/video_stabilization /home/botan/workspace/hobby_projects/video_stabilization/build /home/botan/workspace/hobby_projects/video_stabilization/build /home/botan/workspace/hobby_projects/video_stabilization/build/CMakeFiles/problem1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/problem1.dir/depend
 

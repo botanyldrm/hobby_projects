@@ -123,11 +123,8 @@ CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.o: /usr/local/include/opencv4/o
 CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.o: /usr/local/include/opencv4/opencv2/flann/config.h
 CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.o: /usr/local/include/opencv4/opencv2/flann/defines.h
 CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.o: /usr/local/include/opencv4/opencv2/flann/miniflann.hpp
-CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.o: /usr/local/include/opencv4/opencv2/highgui.hpp
-CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.o: /usr/local/include/opencv4/opencv2/imgcodecs.hpp
 CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.o: /usr/local/include/opencv4/opencv2/imgproc.hpp
 CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.o: /usr/local/include/opencv4/opencv2/opencv_modules.hpp
-CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.o: /usr/local/include/opencv4/opencv2/videoio.hpp
 CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.o: /usr/local/include/opencv4/opencv2/xfeatures2d.hpp
 CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.o: /usr/local/include/opencv4/opencv2/xfeatures2d/nonfree.hpp
 
@@ -170,11 +167,8 @@ CMakeFiles/problem1.dir/src/Stabilizer.cpp.o: /usr/local/include/opencv4/opencv2
 CMakeFiles/problem1.dir/src/Stabilizer.cpp.o: /usr/local/include/opencv4/opencv2/flann/config.h
 CMakeFiles/problem1.dir/src/Stabilizer.cpp.o: /usr/local/include/opencv4/opencv2/flann/defines.h
 CMakeFiles/problem1.dir/src/Stabilizer.cpp.o: /usr/local/include/opencv4/opencv2/flann/miniflann.hpp
-CMakeFiles/problem1.dir/src/Stabilizer.cpp.o: /usr/local/include/opencv4/opencv2/highgui.hpp
-CMakeFiles/problem1.dir/src/Stabilizer.cpp.o: /usr/local/include/opencv4/opencv2/imgcodecs.hpp
 CMakeFiles/problem1.dir/src/Stabilizer.cpp.o: /usr/local/include/opencv4/opencv2/imgproc.hpp
 CMakeFiles/problem1.dir/src/Stabilizer.cpp.o: /usr/local/include/opencv4/opencv2/opencv_modules.hpp
-CMakeFiles/problem1.dir/src/Stabilizer.cpp.o: /usr/local/include/opencv4/opencv2/videoio.hpp
 CMakeFiles/problem1.dir/src/Stabilizer.cpp.o: /usr/local/include/opencv4/opencv2/xfeatures2d.hpp
 CMakeFiles/problem1.dir/src/Stabilizer.cpp.o: /usr/local/include/opencv4/opencv2/xfeatures2d/nonfree.hpp
 

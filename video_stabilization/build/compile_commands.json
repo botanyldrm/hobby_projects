@@ -1,22 +1,22 @@
 [
 {
-  "directory": "/home/botan/workspace/projects/video_stabilization/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/botan/workspace/projects/video_stabilization/include -isystem /usr/local/include/opencv4  -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/problem1.dir/main.cpp.o -c /home/botan/workspace/projects/video_stabilization/main.cpp",
-  "file": "/home/botan/workspace/projects/video_stabilization/main.cpp"
+  "directory": "/home/botan/workspace/hobby_projects/video_stabilization/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/botan/workspace/hobby_projects/video_stabilization/include -isystem /usr/local/include/opencv4  -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/problem1.dir/main.cpp.o -c /home/botan/workspace/hobby_projects/video_stabilization/main.cpp",
+  "file": "/home/botan/workspace/hobby_projects/video_stabilization/main.cpp"
 },
 {
-  "directory": "/home/botan/workspace/projects/video_stabilization/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/botan/workspace/projects/video_stabilization/include -isystem /usr/local/include/opencv4  -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/problem1.dir/src/DataLoader.cpp.o -c /home/botan/workspace/projects/video_stabilization/src/DataLoader.cpp",
-  "file": "/home/botan/workspace/projects/video_stabilization/src/DataLoader.cpp"
+  "directory": "/home/botan/workspace/hobby_projects/video_stabilization/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/botan/workspace/hobby_projects/video_stabilization/include -isystem /usr/local/include/opencv4  -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/problem1.dir/src/DataLoader.cpp.o -c /home/botan/workspace/hobby_projects/video_stabilization/src/DataLoader.cpp",
+  "file": "/home/botan/workspace/hobby_projects/video_stabilization/src/DataLoader.cpp"
 },
 {
-  "directory": "/home/botan/workspace/projects/video_stabilization/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/botan/workspace/projects/video_stabilization/include -isystem /usr/local/include/opencv4  -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.o -c /home/botan/workspace/projects/video_stabilization/src/FeatureExtractor.cpp",
-  "file": "/home/botan/workspace/projects/video_stabilization/src/FeatureExtractor.cpp"
+  "directory": "/home/botan/workspace/hobby_projects/video_stabilization/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/botan/workspace/hobby_projects/video_stabilization/include -isystem /usr/local/include/opencv4  -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/problem1.dir/src/FeatureExtractor.cpp.o -c /home/botan/workspace/hobby_projects/video_stabilization/src/FeatureExtractor.cpp",
+  "file": "/home/botan/workspace/hobby_projects/video_stabilization/src/FeatureExtractor.cpp"
 },
 {
-  "directory": "/home/botan/workspace/projects/video_stabilization/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/botan/workspace/projects/video_stabilization/include -isystem /usr/local/include/opencv4  -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/problem1.dir/src/Stabilizer.cpp.o -c /home/botan/workspace/projects/video_stabilization/src/Stabilizer.cpp",
-  "file": "/home/botan/workspace/projects/video_stabilization/src/Stabilizer.cpp"
+  "directory": "/home/botan/workspace/hobby_projects/video_stabilization/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/botan/workspace/hobby_projects/video_stabilization/include -isystem /usr/local/include/opencv4  -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/problem1.dir/src/Stabilizer.cpp.o -c /home/botan/workspace/hobby_projects/video_stabilization/src/Stabilizer.cpp",
+  "file": "/home/botan/workspace/hobby_projects/video_stabilization/src/Stabilizer.cpp"
 }
 ]

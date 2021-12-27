@@ -1,23 +1,13 @@
-#include <opencv2/core.hpp>
-#include <opencv2/videoio.hpp>
-#include <opencv2/highgui.hpp>
-#include<opencv2/imgproc.hpp>
 #include "./include/DataLoader.h"
-#include "./include/FeatureExtractor.h"
 #include "./include/Stabilizer.h"
 
 int main()
 {
-    cv::String video_pth = "/home/botan/workspace/hobby_projects/video_stabilization/resources/3.avi";
+    cv::String video_pth = "/home/botan/workspace/hobby_projects/video_stabilization/resources/5.avi";
     DataLoader video_src = DataLoader(video_pth);
-    FeatureExtractor feature_extractor;
-    Stabilizer stabilizer;
+    std::string extractor_type = "SIFT";
+    Stabilizer stabilizer(extractor_type);
 
-    cv::Mat prev_gray_img;
-    std::vector<cv::KeyPoint> prev_keypoints;
-    cv::Mat prev_descriptors;
-
-    int counter = 0;
     while(true)
     {
         cv::Mat gray_img = video_src.getGrayImage();

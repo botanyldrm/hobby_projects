@@ -1,10 +1,6 @@
 #include "Stabilizer.h"
-#include <sys/types.h>
-#include <dirent.h>
-#include <exception>
 
-
-Stabilizer::Stabilizer()
+Stabilizer::Stabilizer(std::string extractor_type):m_feature_extractor_type(extractor_type)
 {
     m_matcher = cv::DescriptorMatcher::create(cv::DescriptorMatcher::FLANNBASED);
     
@@ -34,7 +30,7 @@ cv::Mat Stabilizer::getStabilizedImage(cv::Mat gray_img)
     if(m_img_counter == 0)
     {
         m_img_counter += 1;
-        m_feature_extractor.getSurfFeatures(gray_img, m_base_keypoints, m_base_descriptors);
+        m_feature_extractor.getFeatures(gray_img, m_base_keypoints, m_base_descriptors, m_feature_extractor_type);
         return gray_img;
     }
     else
@@ -43,7 +39,7 @@ cv::Mat Stabilizer::getStabilizedImage(cv::Mat gray_img)
         m_img_counter += 1;
         std::vector<cv::KeyPoint> current_keypoints;
         cv::Mat current_descriptors;
-        m_feature_extractor.getSurfFeatures(gray_img, current_keypoints, current_descriptors);
+        m_feature_extractor.getFeatures(gray_img, current_keypoints, current_descriptors, m_feature_extractor_type);
 
         std::vector<cv::DMatch> good_matches = featureMatcher(m_base_descriptors, current_descriptors);
 
@@ -61,7 +57,7 @@ cv::Mat Stabilizer::getStabilizedImage(cv::Mat gray_img)
         cv::warpPerspective(gray_img, warpedImage, H, cv::Size(gray_img.cols, gray_img.rows));
         if((m_img_counter % m_update_frequency) == 0)
         {
-            m_feature_extractor.getSurfFeatures(warpedImage, m_base_keypoints, m_base_descriptors);
+            m_feature_extractor.getFeatures(warpedImage, m_base_keypoints, m_base_descriptors, m_feature_extractor_type);
         }
         return warpedImage;
     }

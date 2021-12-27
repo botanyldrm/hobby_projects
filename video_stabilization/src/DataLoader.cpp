@@ -1,9 +1,4 @@
 #include "DataLoader.h"
-#include <sys/types.h>
-#include <dirent.h>
-#include <exception>
-
-
 DataLoader::DataLoader(cv::String video_pth)
 {
     cap.open(video_pth);

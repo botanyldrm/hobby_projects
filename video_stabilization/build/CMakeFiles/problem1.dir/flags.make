@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/botan/workspace/projects/video_stabilization/include -isystem /usr/local/include/opencv4 
+CXX_INCLUDES = -I/home/botan/workspace/hobby_projects/video_stabilization/include -isystem /usr/local/include/opencv4 
 
